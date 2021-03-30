@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>techConnect</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.19.0.min.js"></script>
+
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">RoboCop</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#saiiii">Navigation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#map">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Development</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">Get our surveillance forget the rest.</h1>
+
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="https://smprobotics.com/wp-content/uploads/2015/12/Outdoor_panoramic_surveillance_robot.png" alt="robotimg1">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, you will have no more worries.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Security</h3>
+          <p>Security,when noone else is around.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+          <p>Designed for guarantee, engineer to last.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">This is our first stage of development.It can identify the intruders as well as the current location can be monitored through gps.</h2>
+
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">We are trying to build and bring the good progress future development to life,soon.</h2>
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+
+
+
+
+  <section class="white-section" >
+    <img src="http://192.168.7.33:8081/" style="float:left; width:100%; max-width: 700px; max-height:600px; border-radius:10px"></img>
+<table style="float:right; width:100%; max-width: 400px; height:300px;">
+
+
+
+
+  <h2 id="saiiii">NAVIGATION</h2>
+  <td style="text-align: center">
+         <form action="/2" method="POST">
+       <button id="FWD" class="btn btn-secondary">FORWARD</button>
+</br>
+     </form>
+  </td>
+<tr>
+<td style="text-align: center">
+         <form action="/6" method="POST">
+       <button id="LFT" class="btn btn-secondary">LEFT</button>
+       </br>
+     </form>
+  </td>
+</tr>
+<tr>
+  <td style="text-align: center">
+           <form action="/7" method="POST">
+         <button id="RGT" class="btn btn-secondary">RIGHT</button>
+         </br>
+       </form>
+    </td>
+
+
+</tr>
+
+
+
+
+<tr>
+  <td style="text-align: center">
+         <form action="/4" method="POST">
+          <button id="REV" class="btn btn-secondary">REVERSE</button>
+          </br>
+     </form>
+  </td>
+</tr>
+<tr>
+  <td >
+         <form action="/5" method="POST">
+          <button id="STP" class="btn btn-secondary">STOP</button>
+           </br>
+         </form>
+  </td>
+
+</tr>
+
+</table>
+
+
+
+
+
+  </section>
+
+</section>
+<section  class="colored-section"  id="map">
+  <div class="bg"></div>
+     <div class="bg-others">
+    <div class="container">
+      <h1 >Realtime Tracker </h1>
+        <center><hr style="height:2px; border:none; color:#ffffff; background-color:#ffffff; width:35%; margin: 0 auto 0 auto;"></center>
+        <p>by TechConnect</p>
+        <center><button class="btn btn-success col-sm-3" id="action">Start Tracking</button></center><br>
+        <center><div id="map-canvas"></div></center>
+    </div>
+          </div>
+
+    <script>
+    window.lat = 13.012961;
+    window.lng = 80.236476;
+
+    var map;
+    var mark;
+    var lineCoords = [];
+
+    var initialize = function() {
+      map  = new google.maps.Map(document.getElementById('map-canvas'), {center:{lat:lat,lng:lng},zoom:12});
+      mark = new google.maps.Marker({position:{lat:lat, lng:lng}, map:map});
+    };
+
+    window.initialize = initialize;
+
+    var redraw = function(payload) {
+      if(payload.message.lat){
+      lat = payload.message.lat;
+      lng = payload.message.lng;
+
+      map.setCenter({lat:lat, lng:lng, alt:0});
+      mark.setPosition({lat:lat, lng:lng, alt:0});
+
+      lineCoords.push(new google.maps.LatLng(lat, lng));
+
+      var lineCoordinatesPath = new google.maps.Polyline({
+        path: lineCoords,
+        geodesic: true,
+        strokeColor: '#2E10FF'
+      });
+
+      lineCoordinatesPath.setMap(map);}
+    };
+
+    var pnChannel = "raspi-tracker";
+
+    var pubnub = new PubNub({
+      publishKey:   'pub-c-ac87e576-9951-4add-a2cf-5feb9dc8e728',
+      subscribeKey: 'sub-c-8e2587cc-7b85-11eb-9123-deb22d7a9880'
+    })
+    document.querySelector('#action').addEventListener('click', function(){
+        var text = document.getElementById("action").textContent;
+        if(text == "Start Tracking"){
+            pubnub.subscribe({channels: [pnChannel]});
+            pubnub.addListener({message:redraw});
+            document.getElementById("action").classList.add('btn-danger');
+            document.getElementById("action").classList.remove('btn-success');
+            document.getElementById("action").textContent = 'Stop Tracking';
+        }
+        else{
+            pubnub.unsubscribe( {channels: [pnChannel] });
+            document.getElementById("action").classList.remove('btn-danger');
+            document.getElementById("action").classList.add('btn-success');
+            document.getElementById("action").textContent = 'Start Tracking';
+        }
+        });
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCWwH71u5SwdUVygiMSFSuJWHzlBfeswgU&callback=initialize"></script>
+
+</section>
+
+
+</body>
+
+</html>
+
+
+<!--<i class="fas fa-arrow-up"></i>-->

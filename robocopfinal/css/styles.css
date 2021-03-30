@@ -1,0 +1,220 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #a7c5eb;
+  color: #456268;
+}
+
+.white-section {
+  background-color: #fff;
+
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: #456268;
+
+}
+
+/* Buttons */
+
+
+/* Title Section */
+
+#title {
+  background-color: #a7c5eb;
+  color: black;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 100%;
+
+  right: 40%;
+  padding-left: 30%;
+}
+
+/* Features Section */
+
+#features {
+
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #a7c5eb;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #a7c5eb;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* navigate Section */
+
+
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+}
+
+#arrow{
+  color: #a7c5eb;
+  margin-bottom: 1rem;
+  width: 70%;
+
+}
+#arrow:hover {
+  color: #ff4c68;
+}
+#saiii{
+ text-align: center;
+
+}
+#saiiii{
+  margin-top: 100px;
+text-align: center;
+margin-left: 75%;
+
+}
+.bg {
+  /* The image used */
+
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  /* Full height */
+  height: 100%;
+  margin-top: 30%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-others {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid #f1f1f1;
+
+
+  left: 10%;
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+
+  position: relative;
+}
+.hr1{
+   color: white;
+}
+#map-canvas{
+    width:720px;
+    height:400px;
+    border: 6px solid #056af7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
